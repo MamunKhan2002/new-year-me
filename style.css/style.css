@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0 ; */
+    min-height: 810px;
+}
+
+.banner {
+    margin: 210px 230px 170px 0;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #151414;
+    text-align: end;
+}
+
+.banner-description {
+    padding-block: 24px;
+    text-align: end;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+.bnr-btn {
+    text-align: end;
+}
+
+.banner-btn {
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    outline: 0;
+}
+
+.banner-btn>a {
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* -------------Main Section Style Here----------- */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.failures-container {
+    background-image: url("../images/person.png");
+    height: 100vh;
+    /* margin: 130px 0; */
+    background-position: 0px 140px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.failure-info {
+    margin: 370px 0 0 0;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 16px 0;
+}
+
+.failure-ul{
+    list-style-type: none;
+}
+
+.failure-ul >li{
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+}
+
+/* ----------Here My Plan Style Start---------- */
+.my-plan-title{
+
+}
