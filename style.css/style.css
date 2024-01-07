@@ -89,11 +89,11 @@ main {
     margin: 24px 0 16px 0;
 }
 
-.failure-ul{
+.failure-ul {
     list-style-type: none;
 }
 
-.failure-ul >li{
+.failure-ul>li {
     margin-bottom: 8px;
     font-size: 16px;
     color: #444343;
@@ -101,6 +101,35 @@ main {
 }
 
 /* ----------Here My Plan Style Start---------- */
-.my-plan-title{
+.my-plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0;
+}
 
+.plan-container {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+}
+
+.plan-title {
+    color: #151414;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 700;
+    margin: 24px 0 16px 0;
+}
+
+.plan-work {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 135px;
+}
+
+.plan-item {
+    text-align: center;
 }
