@@ -133,3 +133,34 @@ main {
 .plan-item {
     text-align: center;
 }
+
+/* ----------Here are positive mindset design start---------- */
+.mindset {
+    background-image: url("../images/gradient3.png"), url("../images/watch.png");
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    /* padding-bottom: 130px; */
+}
+
+.mindset-tile {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 60px 617px 24px 64px;
+}
+
+.Contact-btn {
+    padding: 20px 35px;
+    outline: 0;
+    border: 0;
+    margin-inline-start: 100px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.Contact-btn>a {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
