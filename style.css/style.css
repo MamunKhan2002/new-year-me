@@ -137,9 +137,8 @@ main {
 /* ----------Here are positive mindset design start---------- */
 .mindset {
     background-image: url("../images/gradient3.png"), url("../images/watch.png");
-    /* height: 100vh; */
+    min-height: 300px;
     background-repeat: no-repeat;
-    /* padding-bottom: 130px; */
 }
 
 .mindset-tile {
@@ -149,7 +148,7 @@ main {
     padding: 60px 617px 24px 64px;
 }
 
-.Contact-btn {
+.primary-btn {
     padding: 20px 35px;
     outline: 0;
     border: 0;
@@ -158,9 +157,68 @@ main {
     background: #FFF;
 }
 
-.Contact-btn>a {
+.primary-btn>a, .subscribe-btn>a {
     color: #F15B22;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
 }
+
+
+
+
+/* -----------Footer Section Style Start----------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #151414;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-block: 16px 24px;
+}
+
+.footer-Subscribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact-item {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social-icon {
+    margin-top: 32px;
+    margin-right: 15px;
+}
+
+input[type="email"] {
+    padding: 21px 160px 21px 21px;
+    margin-block: 31px 16px;
+}
+
+.subscribe-btn{
+    padding: 20px 35px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+/* --------The End----------- */
